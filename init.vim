@@ -5,7 +5,7 @@ set smarttab
 set cindent
 set tabstop=4
 set shiftwidth=4
-"set relativenumber
+set relativenumber
 set noswapfile
 set incsearch
 set mouse=a
@@ -38,7 +38,8 @@ Plug 'alvan/vim-closetag'
 Plug 'mattn/emmet-vim'
 " <----------k biet cai gi-------->
 Plug 'captbaritone/better-indent-support-for-php-with-html'
-
+"<---git------->
+Plug 'tpope/vim-fugitive'
 call plug#end()
 "	<===========config plugin==========>
 "	<--------------NERDTREE------------>
