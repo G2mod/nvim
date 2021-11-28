@@ -45,8 +45,12 @@ call plug#end()
 "	<--------------NERDTREE------------>
 		"-----F9 to open file browser-----
 nnoremap <F9> :NERDTreeToggle<CR>
-
-		"-----thay doi icon mui ten-----
+nnoremap <F5> :source % <CR>
+nnoremap <F4> :q <CR>
+nnoremap <F3> :wq <CR>
+nnoremap <F2> :w <CR>
+	
+"-----thay doi icon mui ten-----
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 
